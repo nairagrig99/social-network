@@ -1,0 +1,11 @@
+.product-cart img {
+  width: 100%;
+}
+.product-cart p {
+  text-overflow: ellipsis;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100px;
+}
+
+/*# sourceMappingURL=HomePage.css.map */

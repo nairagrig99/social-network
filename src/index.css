@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user__account {
+    position: relative;
+}
+
+.profile_image {
+    border-radius: 50px;
+}
+
+.profile_coverimage {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.profile_coverimage-label {
+    position: absolute;
+    bottom: 13px;
+    right: 6px;
+}
+
+.profile_image-changeimage {
+    position: absolute;
+    bottom: 0;
+    left: 23%;
+    background: white;
+    border-radius: 50px;
+    padding: 3px 10px;
+    border: 1px solid;
+    font-weight: 700;
+}
